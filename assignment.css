@@ -3,29 +3,28 @@
     justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
+
+
 }
-.nav{ 
-    background-size: cover;
-  padding: 40px 0;
-  
-}
+
 .nav{
     background-image: url('hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0%;
 
 }
 
-
 .nav {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
+  width: 100%;
+  max-width: 1200px
+  margin: 0;
 }
 .logo {
   font-size: 24px;
   font-weight: bold;
   color: #3f3fff;
+
 }
 .signup {
   background-color: #3f3fff;
@@ -61,6 +60,7 @@
    
 }
  main{
+   background: #e5e7ff;
     font-family: Arial, sans-serif;
   margin: 0;
   padding: 6px;
@@ -75,8 +75,9 @@
   flex-wrap: wrap; 
   justify-content: space-between;
   align-items: center;
-  background: rgb(100, 216, 237);
+  background: #e5e7ff;
   text-align: center;
+  
 }
 .image{
  text-align: right;
@@ -113,7 +114,12 @@ color: mediumpurple;
   display: block;
 }
 .stats {
-  background: #e5e7ff;
+  background: rgb(178, 183, 190);
+  background-size: auto;
+  border-radius: 18px;
+  padding: 20px;
+  margin: auto;
+  width: 80%;
 }
 
 .stats .numbers {
@@ -133,4 +139,168 @@ color: mediumpurple;
 }
 .users{
    text-align: center;
+}
+body{
+  background: #e5e7ff;s
+}
+.say{
+      font-size: 28px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    .testimonials{
+      font-family: Arial, sans-serif;
+      
+      margin: 0;
+      padding: 40px;
+      text-align: center
+    }
+
+.testimonial-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .testimonial-card {
+      background: white;
+      padding: 20px;
+      width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+.stars {
+      margin-bottom: 10px;
+    }
+
+    .stars img {
+      width: 18px;
+      margin-right: 2px;
+    }
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+.text {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 16px;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+.reviewer img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    .reviewer-info {
+      font-size: 13px;
+      color: #666;
+    }
+.reviewer-info span {
+      display: block;
+    }
+    
+contact-section {
+  padding: 60px 20px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  gap: 40px;
+  padding: 40px;
+}
+
+.left h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  padding-left: 30px;
+}
+
+.right form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.right form input,
+.right form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.right form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.right form button {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #4c40f7;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.right form button:hover {
+  background-color: #362cb0;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+footer h1 {
+  color: #4c40f7;
+  font-size: 46px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+footer p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4c40f7;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }
